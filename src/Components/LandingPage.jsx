@@ -5,12 +5,12 @@ import profileImage from '../assets/y1.jpeg'; // Ensure path is correct
 export function LandingPage(props) {
     return (
         <div className="h-screen w-screen bg-[#1e1e2f] text-white flex items-center px-6 pt-24 md:pt-0">
-            <div className="flex justify-between items-center w-full max-w-7xl mx-auto flex-wrap gap-10">
+            <div className="flex justify-between items-center w-full  max-w-7xl mx-auto flex-wrap gap-10">
                 <motion.div
                     initial={{ opacity: 0, x: -40 }}
                     animate={{ opacity: 1, x: 0 }}
                     transition={{ duration: 1 }}
-                    className="max-w-2xl text-left text-justify"
+                    className="max-w-2xl  text-justify"
                 >
                     <h1 className="text-4xl md:text-5xl font-bold text-blue-400 mb-6">
                         Hey, I'm Anshuman Gogoi

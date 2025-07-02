@@ -51,23 +51,24 @@ export function NavBar(props) {
 
             {/* Mobile Menu */}
             {menuOpen && (
-                <motion.div
-                    initial={{ opacity: 0 }}
-                    animate={{ opacity: 1 }}
-                    className="md:hidden mt-4 space-y-4 px-2"
-                >
-                    {navLinks.map((link) => (
-                        <Link
-                            key={link.label}
-                            to={link.to}
-                            className="block text-gray-300 hover:text-blue-400 transition duration-300"
-                            onClick={() => setMenuOpen(false)}
-                        >
-                            {link.label}
-                        </Link>
-                    ))}
-                </motion.div>
-            )}
+    <motion.div
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        className="md:hidden mt-4 space-y-4 px-4 py-4 bg-[#1e1e2f] rounded-xl shadow-lg border border-gray-700"
+    >
+        {navLinks.map((link) => (
+            <Link
+                key={link.label}
+                to={link.to}
+                className="block text-gray-200 hover:text-blue-400 transition duration-300"
+                onClick={() => setMenuOpen(false)}
+            >
+                {link.label}
+            </Link>
+        ))}
+    </motion.div>
+)}
         </motion.nav>
     );
 }
+ 
