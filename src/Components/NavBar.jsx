@@ -11,7 +11,7 @@ export function NavBar(props) {
     const navLinks = [
         { label: 'Home', to: '/' },
         { label: 'Projects', to: '/projects' },
-        { label: 'Coding Profiles', to: '/coding-profiles' },
+        { label: 'Coding Profiles', to: '/profiles' },
         { label: 'Skills', to: '/skills' },
         { label: 'Socials', to: '/socials' },
         { label: 'Experience', to: '/experience' },
