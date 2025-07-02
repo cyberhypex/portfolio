@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import { motion } from 'framer-motion';
 import { Menu, X } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
@@ -19,12 +18,7 @@ export function NavBar(props) {
     ];
 
     return (
-        <motion.nav
-            initial={{ y: -100, opacity: 0 }}
-            animate={{ y: 0, opacity: 1 }}
-            transition={{ duration: 0.8 }}
-            className="w-full text-white px-6 py-4 fixed top-0 z-50 backdrop-blur bg-transparent"
-        >
+        <nav className="w-full text-white px-6 py-4 fixed top-0 z-50 backdrop-blur bg-transparent">
             <div className="max-w-7xl mx-auto flex items-center justify-between">
                 <div className="text-2xl font-bold text-blue-400">Anshuman</div>
 
@@ -51,24 +45,19 @@ export function NavBar(props) {
 
             {/* Mobile Menu */}
             {menuOpen && (
-    <motion.div
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        className="md:hidden mt-4 space-y-4 px-4 py-4 bg-[#1e1e2f] rounded-xl shadow-lg border border-gray-700"
-    >
-        {navLinks.map((link) => (
-            <Link
-                key={link.label}
-                to={link.to}
-                className="block text-gray-200 hover:text-blue-400 transition duration-300"
-                onClick={() => setMenuOpen(false)}
-            >
-                {link.label}
-            </Link>
-        ))}
-    </motion.div>
-)}
-        </motion.nav>
+                <div className="md:hidden mt-4 space-y-4 px-4 py-4 bg-[#1e1e2f] rounded-xl shadow-lg border border-gray-700">
+                    {navLinks.map((link) => (
+                        <Link
+                            key={link.label}
+                            to={link.to}
+                            className="block text-gray-200 hover:text-blue-400 transition duration-300"
+                            onClick={() => setMenuOpen(false)}
+                        >
+                            {link.label}
+                        </Link>
+                    ))}
+                </div>
+            )}
+        </nav>
     );
 }
- 

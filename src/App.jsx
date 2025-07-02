@@ -7,6 +7,7 @@ import { Projects } from './Components/Projects'
 import { CodingProfiles } from './Components/CodingProfiles'
 import { Experience } from './Components/Experience'
 import { Skills } from './Components/Skills'
+import { Socials } from './Components/Socials'
 
 function App() {
  
@@ -18,6 +19,7 @@ function App() {
       <Route path='/' element={<LandingPage />} />
       <Route path='/projects' element={<Projects />} />
       <Route path='/profiles' element={<CodingProfiles />} />
+      <Route path='/socials' element={<Socials />} />
       <Route path='/experience' element={<Experience />} />
       <Route path='/skills' element={<Skills />} />
 
