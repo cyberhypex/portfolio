@@ -4,7 +4,8 @@ import profileImage from '../assets/y1.jpeg'; // Ensure path is correct
 
 export function LandingPage(props) {
     return (
-        <div className="h-screen w-screen bg-[#1e1e2f] text-white flex items-center px-6 pt-24 md:pt-0">
+       <div className="h-screen w-screen bg-[#1e1e2f] text-white px-6 pt-32 md:pt-24 flex items-start">
+
             <div className="flex justify-between items-center w-full  max-w-7xl mx-auto flex-wrap gap-10">
                 <motion.div
                     initial={{ opacity: 0, x: -40 }}
@@ -12,20 +13,25 @@ export function LandingPage(props) {
                     transition={{ duration: 1 }}
                     className="max-w-2xl  text-justify"
                 >
-                    <h1 className="text-4xl md:text-5xl font-bold text-blue-400 mb-6">
-                        Hey, I'm Anshuman Gogoi
-                    </h1>
+                    
                     <p className="text-lg md:text-xl text-gray-300 leading-relaxed">
-                        <span className="text-white font-semibold">Hi, I’m <span className="text-blue-400">Anshuman Gogoi</span></span> — a
-                        <span className="text-white font-medium"> backend-focused full stack developer</span> with strong command of
-                        <span className="text-blue-300 font-semibold"> Spring Boot</span>. I’ve worked on several
-                        <span className="text-white font-medium"> real-world projects</span>, combining backend expertise with frontend integration.
-                        I’m currently pursuing a
-                        <span className="text-white font-medium"> B.Tech in Electronics and Telecommunication</span> and actively seeking
-                        <span className="text-white font-medium"> internship opportunities</span> to apply my
-                        <span className="text-white font-medium"> problem-solving skills</span> and grow as a
-                        <span className="text-white font-medium"> software engineer</span>.
-                    </p>
+  <span className="text-white font-semibold">Hi, I’m <span className="text-blue-400">Anshuman Gogoi</span></span> — a
+  <span className="text-white font-medium"> backend-focused full stack developer</span> passionate about building scalable web applications and APIs. I specialize in 
+  <span className="text-blue-300 font-semibold"> Spring Boot</span> and love working on systems where performance and structure matter.
+
+  <br /><br />
+  Over the past year, I've worked on several
+  <span className="text-white font-medium"> real-world projects</span> — from RESTful APIs to full-stack web apps — integrating the frontend and backend seamlessly. My toolbelt includes technologies like React, MySQL, Springboot and Docker, and I'm constantly pushing myself to learn and explore more.
+
+  <br /><br />
+  I’m currently pursuing a
+  <span className="text-white font-medium"> B.Tech in Electronics and Telecommunication</span>, and I’m eager to step into a software engineering role where I can apply my
+  <span className="text-white font-medium"> problem-solving skills</span>, contribute to impactful products, and grow as a developer.
+
+  <br /><br />
+  Whether it's collaborating in a team, optimizing backend performance, or experimenting with new stacks, I enjoy the process of turning ideas into working solutions. Let’s build something meaningful.
+</p>
+
                 </motion.div>
 
                 <motion.img

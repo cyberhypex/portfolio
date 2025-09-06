@@ -8,6 +8,7 @@ import { CodingProfiles } from './Components/CodingProfiles'
 import { Experience } from './Components/Experience'
 import { Skills } from './Components/Skills'
 import { Socials } from './Components/Socials'
+import { Contact } from './Components/Contact'
 
 function App() {
  
@@ -21,6 +22,7 @@ function App() {
       <Route path='/profiles' element={<CodingProfiles />} />
       <Route path='/socials' element={<Socials />} />
       <Route path='/experience' element={<Experience />} />
+      <Route path='/contact' element={<Contact />} />
       <Route path='/skills' element={<Skills />} />
 
     </Routes>

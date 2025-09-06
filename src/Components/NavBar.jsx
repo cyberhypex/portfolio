@@ -13,13 +13,13 @@ export function NavBar() {
     { label: 'Skills', to: '/skills' },
     { label: 'Socials', to: '/socials' },
     { label: 'Experience', to: '/experience' },
-    { label: 'Resume', to: '/resume' },
+    { label: 'Contact', to: '/contact' },
   ];
 
   return (
     <nav className="w-full text-white px-6 py-4 fixed top-0 z-50 backdrop-blur bg-transparent">
       <div className="max-w-7xl mx-auto flex items-center justify-between">
-        <div className="text-2xl font-bold text-blue-400">Anshuman</div>
+        <div className="text-2xl font-bold text-blue-400">Ansh</div>
 
         {/* Desktop Menu */}
         <div className="hidden md:flex space-x-8">
