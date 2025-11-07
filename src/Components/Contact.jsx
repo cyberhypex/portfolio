@@ -18,7 +18,7 @@ export function Contact() {
         </div>
 
         <a
-          href="https://drive.google.com/file/d/11TLZWC1ydAUVKYOjR6SiSJn-FsAC7ndb/view?usp=sharing"
+          href="https://drive.google.com/file/d/1RW-GR1CByaTvEZtHhOT-_WW-pCaN3qeb/view?usp=sharing"
           target="_blank"
           rel="noopener noreferrer"
           className="mt-4 px-6 py-3 border border-white  hover:text-black font-semibold rounded-xl shadow-md hover:shadow-blue-500/40 transition duration-300"
