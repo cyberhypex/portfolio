@@ -24,7 +24,14 @@ Presenting Valorant-Accessories, your one stop solution to learn about  Valorant
     livelink:'https://lucent-bubblegum-9def40.netlify.app/',
     techstack:['Springboot','Core Java','Algorithms','ReactJS','TailwindCSS3','Docker']
 
+},
+{
+  title: 'timeStack',
+  description: 'A clean and intuitive productivity tracker that helps users log activities and visualize daily and monthly time usage, turning raw data into actionable insights for better time management.',
+  livelink: 'https://clinquant-otter-ee944c.netlify.app/',
+  techstack: ['MongoDB', 'Express.js', 'ReactJS', 'Node.js']
 }
+
 
     ];
 
